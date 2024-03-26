@@ -1,0 +1,26 @@
+﻿<Window x:Class="ShadrinaVM.Chief"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ShadrinaVM"
+        mc:Ignorable="d"
+        Title="Повар" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Height="35" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="89" FontFamily="Segoe UI Black" FontSize="24"><Run Language="ru-ru" Text="КАФЕ"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="17" Margin="694,19,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" FontWeight="Bold"><Run Language="ru-ru" Text="ФИО"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="21" Margin="680,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="98" FontWeight="Bold"><Run Language="ru-ru" Text="Повар"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="21" Margin="86,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118" FontWeight="Bold"><Run Language="ru-ru" Text="Перечень заказов"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="19" Margin="86,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118"><Run Language="ru-ru" Text="Заказ"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="19" Margin="86,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118"><Run Language="ru-ru" Text="Заказ"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="19" Margin="86,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118"><Run Language="ru-ru" Text="Заказ"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="21" Margin="626,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="94" FontWeight="Bold"><Run Language="ru-ru" Text="Статус"/></TextBlock>
+        <Button Content="Готов" HorizontalAlignment="Left" Height="19" Margin="650,124,0,0" VerticalAlignment="Top" Width="70" Click="Button_Click"/>
+        <Button Content="Готовится" HorizontalAlignment="Left" Height="19" Margin="579,124,0,0" VerticalAlignment="Top" Width="66"/>
+        <Button Content="Готовится" HorizontalAlignment="Left" Height="19" Margin="579,172,0,0" VerticalAlignment="Top" Width="66"/>
+        <Button Content="Готовится" HorizontalAlignment="Left" Height="19" Margin="579,148,0,0" VerticalAlignment="Top" Width="66"/>
+        <Button Content="Готов" HorizontalAlignment="Left" Height="19" Margin="650,172,0,0" VerticalAlignment="Top" Width="70" Click="Button_Click"/>
+        <Button Content="Готов" HorizontalAlignment="Left" Height="19" Margin="650,148,0,0" VerticalAlignment="Top" Width="70" Click="Button_Click"/>
+
+    </Grid>
+</Window>
